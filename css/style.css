@@ -1,0 +1,67 @@
+/* yomogi-regular - latin_cyrillic */
+
+@font-face {
+    font-family: 'Yomogi';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/yomogi-v2-latin_cyrillic-regular.eot');
+    /* IE9 Compat Modes */
+    src: local(''), url('../fonts/yomogi-v2-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/yomogi-v2-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/yomogi-v2-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/yomogi-v2-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/yomogi-v2-latin_cyrillic-regular.svg#Yomogi') format('svg');
+    /* Legacy iOS */
+}
+
+body {
+    font-family: 'Yomogi';
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    flex-grow: 1;
+}
+
+li {
+    flex-grow: 1;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.menuElement {
+    margin-left: 10%;
+    border-left: 2px solid black;
+    height: 30px;
+    flex-grow: 1;
+    text-decoration: none ;
+    
+}
+
+header {
+    text-align: center;
+    color: rgb(74, 24, 131);
+    background-image: url(../img/fone.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: #020305;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-left: 250px;
+    padding-top: 100px;
+}
