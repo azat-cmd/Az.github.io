@@ -23,13 +23,9 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    margin-left: 10px;
-    flex-grow: 1;
+    background-image: url(../img/fone.jpg);
 }
 
-li {
-    flex-grow: 1;
-}
 
 footer {
     display: flex;
@@ -42,19 +38,33 @@ a{
 a:hover{
     text-decoration: underline;
 }
-
-.menuElement {
-    margin-left: 10%;
-    border-left: 2px solid black;
-    height: 30px;
+.liLogo
+{
+    flex-grow: 2;
+    flex-basis: 550px;
+}
+.liElement
+{
     flex-grow: 1;
+    flex-basis: 100px;
+    line-height: 2;
+    color: rgba(217, 231, 17, 0.979)
+}
+.menuElement {
+    margin-top: 8px;
+    border-left: 2px solid rgba(217, 231, 17, 0.979);
+    height: 30px;
     text-decoration: none ;
+    width: 8px;
     
 }
-
+.liLast{
+    flex-grow:1;
+    line-height: 2;
+}
 header {
     text-align: center;
-    color: rgb(74, 24, 131);
+    color: rgba(217, 231, 17, 0.979);
     background-image: url(../img/fone.jpg);
     height: 400px;
     background-repeat: no-repeat;
@@ -62,6 +72,6 @@ header {
     background-color: #020305;
     background-attachment: fixed;
     background-size: cover;
-    padding-left: 250px;
+    padding-right: 200px;
     padding-top: 100px;
 }
