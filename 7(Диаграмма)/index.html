@@ -5,9 +5,12 @@
     <script type="text/javascript" src="script.js"></script>
     <div style="display: flex;">
         <input id="01" placeholder="Название">
-        <input id="02" placeholder="Значение">
+        <input id="02" placeholder="Значение" onkeyup="this.value = this.value.replace(/[^0-9]/g,'')">
         <button onclick="cl()">
             <p>Готово</p>
+        </button>
+        <button onclick="clean()">
+            <p>Стереть</p>
         </button>
     </div>
 </body>
